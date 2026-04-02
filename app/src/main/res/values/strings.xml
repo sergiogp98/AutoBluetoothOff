@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Bluetooth Off</string>
+    <string name="subtitle">Apaga el Bluetooth automáticamente si no se conecta ningún dispositivo en 60 segundos.</string>
+    <string name="toggle_label">Monitoreo automático</string>
+    <string name="status_active">✓ Activo — vigilando el Bluetooth</string>
+    <string name="status_inactive">Inactivo</string>
+    <string name="bluetooth_state">Bluetooth: %1$s</string>
+    <string name="bt_enabled">Encendido</string>
+    <string name="bt_disabled">Apagado</string>
+    <string name="bt_not_supported">No disponible</string>
+    <string name="note">⚠ En Android 13 o superior, la desactivación directa del Bluetooth requiere confirmación manual del usuario.</string>
+
+    <!-- Mensajes Toast -->
+    <string name="monitoring_enabled">Monitoreo activado</string>
+    <string name="monitoring_disabled">Monitoreo desactivado</string>
+    <string name="permissions_required">Se requieren permisos de Bluetooth para funcionar.</string>
+
+    <!-- Notificaciones -->
+    <string name="notif_channel_name">Monitoreo Bluetooth</string>
+    <string name="notif_channel_desc">Notificaciones del servicio de monitoreo de Bluetooth</string>
+    <string name="notif_monitoring">Monitoreando Bluetooth…</string>
+    <string name="notif_countdown">Sin conexión — apagando en %1$d s</string>
+    <string name="notif_connected">Dispositivo conectado ✓</string>
+    <string name="notif_bt_off">Bluetooth apagado</string>
+    <string name="notif_manual_off">Sin conexión — desactiva el Bluetooth manualmente</string>
+</resources>
